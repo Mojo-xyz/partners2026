@@ -1,0 +1,6 @@
+{
+  "name": "redseasails-2026",
+  "private": true,
+  "scripts": { "start": "serve -l $PORT" },
+  "dependencies": { "serve": "^14" }
+}
