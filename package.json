@@ -1,6 +1,9 @@
 {
   "name": "redseasails-2026",
   "private": true,
-  "scripts": { "start": "serve -l $PORT" },
-  "dependencies": { "serve": "^14" }
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4",
+    "express-basic-auth": "^1.2"
+  }
 }
